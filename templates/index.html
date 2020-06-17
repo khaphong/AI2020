@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<link href="{{ url_for('static', filename='css/popuo-box.css')}}" rel="stylesheet" type="text/css" media="all" />
+<link href="{{ url_for('static', filename='css/style.css')}}" rel="stylesheet" type="text/css" media="all">
+
+<!-- Fonts -->
+<link href="//fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
+<!-- //Fonts -->
+
+</head>
+<!-- //Head -->
+
+<!-- Body -->
+<body>
+	
+
+	<h1>NHẬN DIỆN NGƯỜI NỔI TIẾNG</h1>
+
+	<div class="w3layoutscontaineragileits">
+	<h2>Tải ảnh của bạn</h2>
+		<form action = "/name" method="POST" runat="server"  enctype="multipart/form-data">
+			<input  type='file' name="image" id="imgInp" />
+			<input type="number" name="count" id="count" value="5" style="margin-bottom: 10px;">
+			<img id="blah" src="#" alt=" " />
+			
+			<div class="aitssendbuttonw3ls">
+				<input type="submit" value="Nhận diện">
+			</div>
+		</form>
+	</div>
+
+	
+	<div class="w3footeragile">
+		<p>Trường Đại Học Công Nghệ Thông Tin - Khoa Học Máy Tính<a href="cs.uit.edu.vn"_blank"> KHMT 2020</a></p>
+	</div>
+
+	<script type="text/javascript" src="../static/js/jquery-2.1.4.min.js"></script>
+
+	<!-- pop-up-box-js-file -->  
+		<script src="../static/js/jquery.magnific-popup.js" type="text/javascript"></script>
+	<!--//pop-up-box-js-file -->
+	<script>
+		$(document).ready(function() {
+		$('.w3_play_icon,.w3_play_icon1,.w3_play_icon2').magnificPopup({
+			type: 'inline',
+			fixedContentPos: false,
+			fixedBgPos: true,
+			overflowY: 'auto',
+			closeBtnInside: true,
+			preloader: false,
+			midClick: true,
+			removalDelay: 300,
+			mainClass: 'my-mfp-zoom-in'
+		});
+																		
+		});
+	</script>
+
+</body>
+<!-- //Body -->
+
+</html>

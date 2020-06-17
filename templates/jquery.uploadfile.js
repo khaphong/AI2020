@@ -1,0 +1,9 @@
+<script>
+$(document).ready(function()
+{
+    $("#codevivu-uploader").uploadFile({
+    url:"YOUR_FILE_UPLOAD_URL",
+    fileName:"INPUT_FILE_NAME"
+    });
+});
+</script>
