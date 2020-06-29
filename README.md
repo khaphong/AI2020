@@ -4,7 +4,9 @@ TÌM HIỂU CÔNG CỤ AI VÀ ỨNG DỤNG
 
 GVHD :  Nguyễn Đình Hiển
 
+
 Nhóm SV:
+
 Phan Đình Nguyên	16520850
 
 Đảo Khả Phong	16520922
