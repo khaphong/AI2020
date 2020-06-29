@@ -21,7 +21,7 @@ Phan Duy Nam	17520783
 
 
 Hướng dẫn sử dụng:
-
+Cài đặt python 3
 Vào link https://machinelearningmastery.com/how-to-perform-face-recognition-with-vggface2-convolutional-neural-network-in-keras/ để xem hướng dẫn cài vggface và mtcnn
 Keras 2.2.5, Tensorflow 1.14, nếu cài phiên bản lớn hơn có thể sẽ chạy ko được.
 Cài Flask, matplotlib
